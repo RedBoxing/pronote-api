@@ -1,5 +1,5 @@
 {
-    "name": "@dorian-eydoux/pronote-api",
+    "name": "@redboxing/pronote-api",
     "version": "2.3.4",
     "description": "Pronote 2020/2021 API (Node.JS/TS library, and GraphQL server)",
     "main": "index.js",
