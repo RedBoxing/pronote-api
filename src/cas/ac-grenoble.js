@@ -1,11 +1,11 @@
-const educonnect = require('./generics/kdecole-educonnect');
+const wayf = require('./generics/kdecole-wayf');
 
-module.exports = (url, account, username, password) => educonnect({
+module.exports = (url, account, username, password) => wayf({
     url,
     account,
     username,
     password,
 
     casUrl: 'cas.ent.auvergnerhonealpes.fr',
-    idp: 'EDU'
+    idp: 'GRE-ATS'
 });
